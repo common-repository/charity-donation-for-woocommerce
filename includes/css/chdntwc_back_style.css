@@ -1,0 +1,177 @@
+label.chdntwc_pro_link {
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.chdntwc-container ul.chdntwc-tabs {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    list-style: none;
+}
+.chdntwc-container ul.chdntwc-tabs li {
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+    min-width: 15%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.chdntwc-container ul.chdntwc-tabs li.chdntwc-current {
+    background: #dfdfdf;
+    color: #000000;
+}
+.chdntwc-container .chdntwc-tab-content {
+    display: none;
+    background: #dfdfdf;
+    padding: 15px 0;
+}
+.chdntwc-container .chdntwc-tab-content.chdntwc-current {
+    display: inherit;
+}
+.chdntwc_savebtn {
+    margin-top: 25px !important;
+}
+.chdntwc-head {
+    background-color: #009688;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.chdntwc-table {
+    padding: 0 20px;
+    display: inline-block;
+    width: 100%;
+}
+.chdntwc-table tbody {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.chdntwc-table tbody tr {
+    display: inline-block;
+    width: 100%;
+}
+.chdntwc-table tbody tr th {
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.chdntwc-table tbody tr td {
+    display: inline-block;
+    width: 75%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.chdntwc-table label {
+    vertical-align: text-bottom;
+}
+.chdntwc_radio_label {
+    margin-right: 20px;
+}
+.description.hdntwc_fullwidth {
+    display: block;
+    margin-top: 6px;
+}
+td.forminp.forminp-text.chdntwc-shrtcd {
+    padding: 0;
+}
+.chdntwc_rdicon_lbl svg {
+    display: inline-block;
+    width: 30px;
+    height: auto;
+}
+label.chdntwc_rdicon_lbl {
+    vertical-align: middle;
+    margin-right: 25px;
+}
+
+/*CSS for support rating donation start*/
+.chdntwc_rating_div {
+    width: 100px;
+    vertical-align: middle;
+}
+.chdntwc_ratesup_notice_main {
+    display: inline-block;
+    width: 100%;
+}
+.chdntwc_rateus_notice, .chdntwc_support_notice {
+    display: inline-block;
+    width: 45%;
+    float: left;
+    color: #fff;
+    background-color: #fb5f51;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 70px;
+}
+.chdntwc_rateus_notice h3, .chdntwc_support_notice h3 {
+    color: #fff;
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+.chdntwc_rateus_notice label, .chdntwc_support_notice label {
+    font-size: 16px;
+}
+.chdntwc_support_notice {
+    background-color: #2f3337;
+    margin-left: 2%;
+}
+.chdntwc_rateus_notice a, .chdntwc_support_notice a {
+    color: #fff;
+}
+.chdntwc_rtusnoti_left {
+    display: inline-block;
+    float: left;
+    width: 70%;
+}
+.chdntwc_rtusnoti_right {
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+.chdntwc_rtusnoti_right img {
+    width: 50px;
+    height: auto;
+}
+.chdntwc_donate_main {
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    width: 94.6%;
+    border: 1px solid #e3bbac;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin-top: 15px;
+}
+.chdntwc_donate_main img {
+    height: 32px;
+}
+.chdntwc_donate_main > * {
+    margin: 0 15px 0 0;
+    vertical-align: middle;
+}
+.chdntwc_donate_main h3 {
+    font-size: 15px;
+}
+.chdntwc_donate_form {
+    display: flex;
+}
+.chdntwc_donate_main .button {
+    text-align: center;
+}
+/*CSS for support rating donation end*/
+
+span.description {
+    display: block;
+    margin-top: 6px;
+}

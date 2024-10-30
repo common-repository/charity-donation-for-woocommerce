@@ -1,0 +1,277 @@
+.chdntwc_dntform_main {
+    margin: 40px 0;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.chdntwc_donate_popup .chdntwc_dntform_main {
+    max-width: 100%;
+}
+.chdntwc_dntinp {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.chdntwc_dntinp label {
+    display: inline-flex;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.chdntwc_dntinp input[type="number"] {
+    display: inline-flex;
+    width: 50%;
+    border-color: #ccc;
+    padding: 10px;
+}
+.chdntwc_prdfndnt {
+    display: inline-block;
+    align-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.chdntwc_prdamnt {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #4CAF50;
+    padding: 5px;
+    margin: 5px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.chdntwc_prdamnt:hover {
+    opacity: 0.9;
+}
+.chdntwc_dntnote {
+    display: block;
+    margin-top: 25px;
+}
+.chdntwc_dntnote label {
+    font-size: 20px;
+    font-weight: bold;
+}
+.chdntwc_dntnote textarea {
+    border: 2px solid #ccc;
+}
+.chdntwc_dntbtn {
+    display: block;
+    margin-top: 25px;
+}
+.chdntwc_dntamn_empty {
+    display: inline-block;
+    width: 100%;
+    color: #ff0000;
+    font-size: 18px;
+    margin: 12px 0 0;
+}
+input[type="submit"].chdntwc_dnatn_btn {
+    display: inline-block;
+    padding: 20px;
+    line-height: 0;
+    font-weight: bold;
+    width: auto;
+}
+input[type="submit"].chdntwc_dnatn_btn:hover, input[type="submit"].chdntwc_dnatn_btn:focus {
+    text-decoration: none;
+}
+.chdntwc_pp_btn {
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    margin: 25px 0;
+}
+.chdntwc_fxdbtn .chdntwc_pp_btn {
+    margin: 0;
+}
+.chdntwc_btppicn {
+    vertical-align: text-top;
+    margin-right: 10px;
+    display: inline-block;
+}
+.chdntwc_btppicn svg {
+    width: 20px;
+    height: auto;
+}
+.chdntwc_btppicn svg path {
+    fill: #fff;
+}
+
+/* Donation Form Popup CSS End */
+.chdntwc_body_dntpp {
+    overflow: hidden;
+    position: relative;
+}
+.chdntwc_body_dntpp:after {
+    position: absolute;
+    content: "";
+    background-color: rgba(0,0,0,0.2);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+.chdntwc_loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999999999;
+}
+.chdntwc_donate_popup {
+    display: none;
+    position: fixed;
+    z-index: 9999999;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+.chdntwc_dntpp_content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    border: 1px solid #888;
+    width: 45%;
+    border-radius: 5px;
+    padding: 20px;
+    z-index: 99999;
+}
+.chdntwc_dntpp_header {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+.chdntwc_dntpp_header h1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0px;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+.chdntwc_dntpp_close {
+    position: absolute;
+    right: -33px;
+    top: -33px;
+    height: 25px;
+    line-height: 25px;
+    width: 25px;
+    z-index: 9999999;
+    background-color: black;
+    border-radius: 25px;
+    padding: 0 7px;
+    cursor: pointer;
+}
+.chdntwc_dntpp_close svg {
+    height: auto;
+    width: 11px;
+}
+.chdntwc_dntpp_close svg path {
+    fill: #fff;
+}
+.chdntwc_dntpp_close:hover, .chdntwc_dntpp_close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.chdntwc_dntpp_body {
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+}
+.chdntwc_donate_popup .chdntwc_dntpp_body {
+    margin-top: 0;
+}
+.chdntwc_dntpp_body table {
+    margin: 0px;
+}
+.chdntwc_donate_popup_cls {
+    display: none;
+    background: transparent;
+    position: fixed;
+    z-index: 9999;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+/* Donation Form Popup CSS Start */
+.chdntwc_fxdbtn {
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.chdntwc_pp_btn.chdntwc_ppbtn_shtcd {
+    display: inline;
+}
+.chdntwc_dntclct_main {
+    display: inline-block;
+    width: 100%;
+    padding: 20px 25px;
+    border: 2px solid #ccc;
+    margin-top: 15px;
+}
+.chdntwc_dntclct_main h2 {
+    margin: 0 0 10px !important;
+    padding: 0 0 10px;
+    font-size: 22px;
+    border-bottom: 2px solid #ccc;
+}
+.chdntwc_clctn_main {
+    display: inline-block;
+    width: 100%;
+}
+.chdntwc_clctn_amount {
+    display: inline-block;
+    width: 100%;
+}
+.chdntwc_cltamnt_cursym {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    color: #3c3c3c;
+}
+span.chdntwc_cltamnt_num {
+    background: #e6e6e6;
+    margin-left: 8px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    color: #3c3c3c;
+}
+p.chdntwc_cltamnt {
+    margin: 0;
+}
+
+@media only screen and (max-width: 767px) {
+	.chdntwc_dntpp_content {
+    	width: 90%;
+	}
+	.chdntwc_dntinp input[type="number"] {
+    	width: 90%;
+	}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px)  {
+	.chdntwc_dntpp_content {
+		width: 75%;
+	}
+}
